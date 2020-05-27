@@ -1,0 +1,2 @@
+className = com.example.demo.reflect.User
+methodName = print1
