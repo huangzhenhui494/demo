@@ -1,4 +1,4 @@
-package com.example.demo.reflect;
+package com.hzh.cool.reflect.reflecttest;
 
 import java.io.FileReader;
 import java.io.IOException;
@@ -20,7 +20,7 @@ public class Test {
     public static void main(String[] args) throws ClassNotFoundException, NoSuchMethodException, IllegalAccessException, InvocationTargetException, InstantiationException, NoSuchFieldException, IOException {
 
         //0 获取Student对象的字节码
-        Class clazz = Class.forName("com.example.demo.reflect.User");
+        Class clazz = Class.forName("com.hzh.cool.reflect.reflecttest.User");
 
         // ① 构造器
 //        constructTest(clazz);

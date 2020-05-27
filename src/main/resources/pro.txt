@@ -1,2 +1,2 @@
-className = com.example.demo.reflect.User
+className = User
 methodName = print1
